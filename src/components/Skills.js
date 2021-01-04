@@ -15,57 +15,73 @@ function Skills() {
       <div className="cards">
         <div className="card">
           <div className="icon">
-          <img src={html} alt="html" width="5%"></img>
-          <h3>HTML</h3>
+            <img src={html} alt="html" width="5%"></img>
+            <h3>
+              <span>HTML</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={css} alt="css" width="5%"></img>
-          <h3>CSS</h3>
+            <img src={css} alt="css" width="5%"></img>
+            <h3>
+              <span>CSS</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={bootstrap} alt="bootstrap" width="5%"></img>
-          <h3>bootstrap</h3>
+            <img src={bootstrap} alt="bootstrap" width="5%"></img>
+            <h3>
+              <span>Bootstrap</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={javascript} alt="javascript" width="5%"></img>
-          <h3>Javascript</h3>
+            <img src={javascript} alt="javascript" width="5%"></img>
+            <h3>
+              <span>Javascript</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={reactjs} alt="Reactjs" width="5%"></img>
-          <h3>Reactjs</h3>
+            <img src={reactjs} alt="Reactjs" width="5%"></img>
+            <h3>
+              <span>Reactjs</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={java} alt="java" width="5%"></img>
-          <h3>java</h3>
+            <img src={java} alt="java" width="5%"></img>
+            <h3>
+              <span>Java</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={spring} alt="spring" width="5%"></img>
-          <h3>Spring</h3>
+            <img src={spring} alt="spring" width="5%"></img>
+            <h3>
+              <span>Spring</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>
         <div className="card">
           <div className="icon">
-          <img src={sql} alt="sql" width="5%"></img>
-          <h3>MySql</h3>
+            <img src={sql} alt="sql" width="5%"></img>
+            <h3>
+              <span>MySql</span>
+            </h3>
           </div>
           <p>lorem</p>
         </div>

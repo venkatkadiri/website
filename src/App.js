@@ -3,6 +3,7 @@ import AboutMe from "./pages/AboutMe";
 import MyProjects from "./pages/MyProjects";
 import ContactMe from "./pages/Contactme";
 import Nav from "./components/Nav";
+import MovieDetalis from "./pages/MovieDetalis";
 //importing Global Styles
 import Globalstyle from "./components/GlobalStyle";
 //importing router
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route path="/projects" exact>
           <MyProjects />
+        </Route>
+        <Route path="/projects/:id">
+          <MovieDetalis />
         </Route>
         <Route path="/contact" exact>
           <ContactMe />

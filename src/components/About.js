@@ -14,16 +14,16 @@ function About() {
             <motion.h2 variants={titleAnim}>I am</motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>
-              an <span>Aspiring</span> Web
-            </motion.h2>
+            <motion.h2 variants={titleAnim}>a professional</motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>Developer.</motion.h2>
+            <motion.h2 variants={titleAnim}>
+              <span>Web Developer.</span>
+            </motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact me for any free-lancing work in react Frount End Design.
+          Passionate about responsive and feature-rich websites.
         </motion.p>
         <motion.button variants={fade}>Contact</motion.button>
       </Description>

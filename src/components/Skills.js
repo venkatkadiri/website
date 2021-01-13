@@ -27,9 +27,9 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              Having worked with HTML for quite a while now I am familiar with
+              quite a bit of Advanced HTML features like canvas, drag and drop,
+              SCO optimization, and search engine page indexing.
             </p>
           </div>
           <div className="card">
@@ -40,9 +40,9 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              I can do CSS class-based animations with transitions,resposive
+              website design,familiar with CSS pre compilers such as SCSS and
+              React supported CSS Libraries such as Styled Components, etc.
             </p>
           </div>
           <div className="card">
@@ -53,9 +53,8 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              I use both the vanilla CSS supported Bootstrap and the react
+              supported React-strap.
             </p>
           </div>
           <div className="card">
@@ -66,9 +65,8 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              In javascript, I am very much familiar with ES6 standard syntax
+              like ES6 classes,arrow-functions, Ajax, REST API.
             </p>
           </div>
           <div className="card">
@@ -79,9 +77,16 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              I have Worked on React Library both Professionally and personally
+              and as such, I am well acquainted with Libraries such as
+              <ui>
+                <li>Redux</li>
+                <li>React Router DOM</li>
+                <li>Context API</li>
+                <li>Styled Components</li>
+                <li>Framer Motion</li>
+                <li>Axios</li>
+              </ui>
             </p>
           </div>
           <div className="card">
@@ -92,9 +97,10 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              I started Learning back-end development and coding, in general,
+              using Java so I can Proficiently write Algorithms and I am
+              familiar with all the key concepts like classes, inheritance,
+              polymorphism, Multi-threading, etc.
             </p>
           </div>
           <div className="card">
@@ -105,22 +111,23 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              In Spring I am familiar with MVC Architecture and I have ample
+              experience with writing the Bussiness logic using Design patterns
+              like singleton pattern, DAO pattern POJO classes, etc
             </p>
           </div>
           <div className="card">
             <div className="icon">
               <img src={sql} alt="sql" width="5%"></img>
               <h3>
-                <span>MySql</span>
+                <span>MySQL</span>
               </h3>
             </div>
             <p>
-              Just keep in mind, the usage of style attribute overrides any
-              style set globally. It will override any style set in the HTML tag
-              or external style sheet.
+              I have very good experience with SQL queries and handling all the
+              CRUD operations on hundreds of table I am also well versed in
+              writing complex queries like nested queries and using Advanced
+              clauses.
             </p>
           </div>
         </Cards>

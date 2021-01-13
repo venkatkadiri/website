@@ -31,29 +31,21 @@ function MovieDetalis() {
             <img src={Movie.mainImg} alt="img" />
           </Headline>
           <AboutSection>
-            <SmallDetails>
-              <div>
-                <h3>Type</h3>
-                <div className="Line"></div>
-                <p>{Movie.about.type}</p>
-              </div>
-              <div>
-                <h3>Technologies</h3>
-                <div className="Line"></div>
-                <p>{Movie.about.technologies}</p>
-              </div>
-              <div>
-                <h3>Duration</h3>
-                <div className="Line"></div>
-                <p>{Movie.about.timePeriod}</p>
-              </div>
-            </SmallDetails>
+            <h3>Type</h3>
+            <div className="Line"></div>
+            <p>{Movie.about.type}</p>
+            <h3>Technologies</h3>
+            <div className="Line"></div>
+            <p>{Movie.about.technologies}</p>
+            <h3>Duration</h3>
+            <div className="Line"></div>
+            <p>{Movie.about.timePeriod}</p>
             <h3>Description</h3>
             <div className="Line"></div>
             <p>{Movie.about.description}</p>
             <h3>GitHub</h3>
             <div className="Line"></div>
-            <a>{Movie.about.git_link}</a>
+            <a href={Movie.about.git_link}>{Movie.about.git_link}</a>
           </AboutSection>
         </Details>
       )}
@@ -85,11 +77,18 @@ const AboutSection = styled.div`
   min-height: 80vh;
   margin: 5rem 10rem;
   align-items: center;
+  p {
+    padding: 0rem;
+  }
   .Line {
     width: 9%;
     background: #23d997;
     height: 0.5rem;
     margin: 1rem 0rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
   }
 `;
 const SmallDetails = styled.div`

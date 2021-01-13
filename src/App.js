@@ -7,26 +7,32 @@ import MovieDetalis from "./pages/MovieDetalis";
 //importing Global Styles
 import Globalstyle from "./components/GlobalStyle";
 //importing router
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
+//importing animations
+import { AnimatePresence } from "framer-motion";
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
       <Nav />
       <Globalstyle />
-      <Switch>
-        <Route path="/" exact>
-          <AboutMe />
-        </Route>
-        <Route path="/projects" exact>
-          <MyProjects />
-        </Route>
-        <Route path="/projects/:id">
-          <MovieDetalis />
-        </Route>
-        <Route path="/contact" exact>
-          <ContactMe />
-        </Route>
-      </Switch>
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.pathname}>
+          <Route path="/" exact>
+            <AboutMe />
+          </Route>
+          <Route path="/projects" exact>
+            <MyProjects />
+          </Route>
+          <Route path="/projects/:id">
+            <MovieDetalis />
+          </Route>
+          <Route path="/contact" exact>
+            <ContactMe />
+          </Route>
+        </Switch>
+      </AnimatePresence>
     </div>
   );
 }

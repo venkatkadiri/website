@@ -8,41 +8,50 @@ import music_app_library from "../img/music-app-library.png";
 import pig from "../img/pig-total_image.png";
 import tetris_final from "../img/tetris-final.png";
 
+//importing animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
+
 function MyProjects() {
   return (
-    <Project>
+    <Project
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <Movie>
         <h2>2048</h2>
         <div className="Line"></div>
-        <Link>
+        <Link to="/projects/2048">
           <img src={final_2048} alt="2048" />
         </Link>
       </Movie>
       <Movie>
         <h2>Tetris</h2>
         <div className="Line"></div>
-        <Link>
+        <Link to="/projects/Tetris">
           <img src={tetris_final} alt="Tetris" />
         </Link>
       </Movie>
       <Movie>
         <h2>Dice Game</h2>
         <div className="Line"></div>
-        <Link>
+        <Link to="/projects/Dice-game">
           <img src={pig} alt="Dice" />
         </Link>
       </Movie>
       <Movie>
         <h2>Wave Music App</h2>
         <div className="Line"></div>
-        <Link>
+        <Link to="/projects/Music-Player">
           <img src={music_app_library} alt="Wave Music" />
         </Link>
       </Movie>
     </Project>
   );
 }
-const Project = styled.div`
+const Project = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;

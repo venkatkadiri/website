@@ -3,6 +3,10 @@ import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { MovieState } from "../MovieState";
 
+//importing animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
+
 function MovieDetalis() {
   const history = useHistory();
   const url = history.location.pathname;
@@ -16,20 +20,47 @@ function MovieDetalis() {
   return (
     <>
       {Movie && (
-        <Details>
+        <Details
+          variants={pageAnimation}
+          initial="hidden"
+          animate="show"
+          exit="exit"
+        >
           <Headline>
             <h2>{Movie.title}</h2>
             <img src={Movie.mainImg} alt="img" />
           </Headline>
           <AboutSection>
-            <h2>Title:{Movie.title}</h2>
+            <SmallDetails>
+              <div>
+                <h3>Type</h3>
+                <div className="Line"></div>
+                <p>{Movie.about.type}</p>
+              </div>
+              <div>
+                <h3>Technologies</h3>
+                <div className="Line"></div>
+                <p>{Movie.about.technologies}</p>
+              </div>
+              <div>
+                <h3>Duration</h3>
+                <div className="Line"></div>
+                <p>{Movie.about.timePeriod}</p>
+              </div>
+            </SmallDetails>
+            <h3>Description</h3>
+            <div className="Line"></div>
+            <p>{Movie.about.description}</p>
+            <h3>GitHub</h3>
+            <div className="Line"></div>
+            <a>{Movie.about.git_link}</a>
           </AboutSection>
         </Details>
       )}
     </>
   );
 }
-const Details = styled.div`
+const Details = styled(motion.div)`
   color: white;
 `;
 const Headline = styled.div`
@@ -43,12 +74,26 @@ const Headline = styled.div`
     transform: translate(-50%, -10%);
   }
   img {
-    width: 100%;
+    width: 50%;
     min-height: 70vh;
     object-fit: cover;
     padding-top: 2rem;
+    margin: 5rem 22rem;
   }
 `;
-const AboutSection = styled.div``;
+const AboutSection = styled.div`
+  min-height: 80vh;
+  margin: 5rem 10rem;
+  align-items: center;
+  .Line {
+    width: 9%;
+    background: #23d997;
+    height: 0.5rem;
+    margin: 1rem 0rem;
+  }
+`;
+const SmallDetails = styled.div`
+  display: flex;
+`;
 
 export default MovieDetalis;

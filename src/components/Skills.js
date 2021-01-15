@@ -11,9 +11,13 @@ import sql from "../img/mysql-7.svg";
 import { Layout, Description } from "../Styles";
 import styled from "styled-components";
 
+//bug fixes
+import ScrollTop from "./scrollTop";
+
 function Skills() {
   return (
     <MySkills>
+      <ScrollTop />
       <Description>
         <h2>
           My <span>Skills</span>
@@ -79,14 +83,14 @@ function Skills() {
             <p>
               I have Worked on React Library both Professionally and personally
               and as such, I am well acquainted with Libraries such as
-              <ui>
+              <ul>
                 <li>Redux</li>
                 <li>React Router DOM</li>
                 <li>Context API</li>
                 <li>Styled Components</li>
                 <li>Framer Motion</li>
                 <li>Axios</li>
-              </ui>
+              </ul>
             </p>
           </div>
           <div className="card">

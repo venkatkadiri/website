@@ -7,6 +7,8 @@ import Wave from "./wave";
 import { motion } from "framer-motion";
 import { titleAnim, fade } from "../animation";
 
+//bug-fixes
+
 function About() {
   return (
     <Layout>

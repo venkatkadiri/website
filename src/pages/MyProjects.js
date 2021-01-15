@@ -19,6 +19,10 @@ import {
   sliderContainer,
 } from "../animation";
 
+// importing scroll to top
+
+import ScrollTop from "../components/scrollTop";
+
 function MyProjects() {
   return (
     <Project
@@ -28,6 +32,7 @@ function MyProjects() {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <motion.div variants={sliderContainer}>
         <Frame1 variants={slider}></Frame1>
         <Frame2 variants={slider}></Frame2>

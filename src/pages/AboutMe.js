@@ -5,6 +5,8 @@ import Faq from "../components/Faq";
 //import Animation
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
+//scroll to top
+import ScrollTop from "../components/scrollTop";
 
 function AboutMe() {
   return (
@@ -14,6 +16,7 @@ function AboutMe() {
       animate="show"
       exit="exit"
     >
+      <ScrollTop />
       <About />
       <Skills />
       <Faq />

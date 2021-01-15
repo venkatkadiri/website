@@ -1,6 +1,8 @@
 import React from "react";
 import home1 from "../img/home1.png";
 import { Layout, Description, Image, Hide } from "../Styles";
+import Wave from "./wave";
+
 //importing frmamer motion
 import { motion } from "framer-motion";
 import { titleAnim, fade } from "../animation";
@@ -28,9 +30,7 @@ function About() {
         <motion.button variants={fade}>Contact</motion.button>
       </Description>
 
-      <Image>
-        <img src={home1} alt="guy with a camera"></img>
-      </Image>
+      <Wave />
     </Layout>
   );
 }

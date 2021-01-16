@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/website/static/js/main.30099543.chunk.js",
+    "main.js.map": "/website/static/js/main.30099543.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.5bc4208e.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.5bc4208e.js.map",
+    "static/js/2.0c4d3786.chunk.js": "/website/static/js/2.0c4d3786.chunk.js",
+    "static/js/2.0c4d3786.chunk.js.map": "/website/static/js/2.0c4d3786.chunk.js.map",
+    "static/js/3.07f2426e.chunk.js": "/website/static/js/3.07f2426e.chunk.js",
+    "static/js/3.07f2426e.chunk.js.map": "/website/static/js/3.07f2426e.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/website/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0c4d3786.chunk.js.LICENSE.txt": "/website/static/js/2.0c4d3786.chunk.js.LICENSE.txt",
+    "static/media/2048-initial.f6135dab.png": "/website/static/media/2048-initial.f6135dab.png",
+    "static/media/2048.3003b41d.png": "/website/static/media/2048.3003b41d.png",
+    "static/media/AAA-erp.4e0a0d55.png": "/website/static/media/AAA-erp.4e0a0d55.png",
+    "static/media/bootstrap.98585727.svg": "/website/static/media/bootstrap.98585727.svg",
+    "static/media/css-3.d5739401.svg": "/website/static/media/css-3.d5739401.svg",
+    "static/media/home1.9836de69.png": "/website/static/media/home1.9836de69.png",
+    "static/media/html5.3efc40a5.svg": "/website/static/media/html5.3efc40a5.svg",
+    "static/media/java.83165dfb.svg": "/website/static/media/java.83165dfb.svg",
+    "static/media/javascript-4.13ceb963.svg": "/website/static/media/javascript-4.13ceb963.svg",
+    "static/media/music-app-layout.bacbfdae.png": "/website/static/media/music-app-layout.bacbfdae.png",
+    "static/media/music-app-library.ea6164ab.png": "/website/static/media/music-app-library.ea6164ab.png",
+    "static/media/mysql-7.c88570bc.svg": "/website/static/media/mysql-7.c88570bc.svg",
+    "static/media/pig-total_image.4167cb51.png": "/website/static/media/pig-total_image.4167cb51.png",
+    "static/media/portfolio.9458c3b8.png": "/website/static/media/portfolio.9458c3b8.png",
+    "static/media/react.add74742.svg": "/website/static/media/react.add74742.svg",
+    "static/media/spring-3.b701f1fc.svg": "/website/static/media/spring-3.b701f1fc.svg",
+    "static/media/tetris-final.205b3ac6.png": "/website/static/media/tetris-final.205b3ac6.png",
+    "static/media/tetris-inital.226bb1c0.png": "/website/static/media/tetris-inital.226bb1c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bc4208e.js",
+    "static/js/2.0c4d3786.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.30099543.chunk.js"
+  ]
+}

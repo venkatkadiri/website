@@ -6,6 +6,8 @@ import music_app_library from "./img/music-app-library.png";
 import pig from "./img/pig-total_image.png";
 import tetris_initial from "./img/tetris-inital.png";
 import tetris_final from "./img/tetris-final.png";
+import Portfolio from "./img/portfolio.png";
+import AAA from "./img/AAA-erp.png";
 
 export const MovieState = () => {
   return [
@@ -64,9 +66,39 @@ export const MovieState = () => {
         title: "Wave Music Player",
         description:
           "The Wave Music App is my music player that has been built using “React” I have made use of new technologies like saas framer motion and animations, I have taken great care regarding the user experience to make the app more pleasant for the user so that when the user opens the app he/she can listen to the pleasant chill-hop songs that are present in the music library of the app.",
-        timePeriod: "2 months",
+        timePeriod: "15 days",
         type: "personal",
         technologies: "HTML,CSS,JavaScript,scss,React",
+        git_link: "https://github.com/venkatkadiri/music_player",
+      },
+    },
+    {
+      title: "My Portfolio Website",
+      mainImg: Portfolio,
+      secondaryImg: Portfolio,
+      url: "/projects/Website",
+      about: {
+        title: "My Portfolio Website",
+        description:
+          "This Website showcases a few of the front-End projects (both Professional/Personal) that I have worked on, and I am very proud of the way that this website has turned out. I worked on the UX skills in developing this project. Hope you have a great experience going through this site.",
+        timePeriod: "20 days",
+        type: "personal",
+        technologies: "HTML,CSS,JavaScript,styled components,Redux,React",
+        git_link: "https://github.com/venkatkadiri/website",
+      },
+    },
+    {
+      title: "AAA Erp",
+      mainImg: AAA,
+      secondaryImg: AAA,
+      url: "/projects/AAA",
+      about: {
+        title: "AAA Erp",
+        description:
+          "This Project is an Erp solution built for our Clint AAA real-estate(Oman) the entire front end is built using react while the Backend is been built with PHP, Code Igniter, and Cronjobs. I have worked on a few of the components in units and properties modules along with some reports.Since this project is very big in scale our whole team worked on it for 4 months.",
+        timePeriod: "20 days",
+        type: "Work",
+        technologies: "HTML,CSS,JavaScript,styled components,Redux,React",
         git_link: "https://github.com/venkatkadiri/music_player",
       },
     },

@@ -10,12 +10,15 @@ import { pageAnimation } from "../animation";
 function MovieDetalis() {
   const history = useHistory();
   const url = history.location.pathname;
+  console.log(url);
+  console.log(MovieState);
   const [Movies, setMovies] = useState(MovieState);
   const [Movie, setMovie] = useState(null);
   //UseEffect
   useEffect(() => {
     const currentMovie = Movies.filter((stateMovie) => stateMovie.url === url);
     setMovie(currentMovie[0]);
+    console.log(currentMovie);
   }, [Movies, url]);
   return (
     <>
@@ -79,9 +82,10 @@ const AboutSection = styled.div`
   align-items: center;
   p {
     padding: 0rem;
+    margin-bottom: 2rem;
   }
   .Line {
-    width: 9%;
+    width: 13%;
     background: #23d997;
     height: 0.5rem;
     margin: 1rem 0rem;

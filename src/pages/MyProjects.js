@@ -7,6 +7,8 @@ import final_2048 from "../img/2048.png";
 import music_app_library from "../img/music-app-library.png";
 import pig from "../img/pig-total_image.png";
 import tetris_final from "../img/tetris-final.png";
+import Portfolio from "../img/portfolio.png";
+import AAA from "../img/AAA-erp.png";
 
 //importing animations
 import { motion } from "framer-motion";
@@ -76,6 +78,24 @@ function MyProjects() {
               src={music_app_library}
               alt="Wave Music"
             />
+          </Hide>
+        </Link>
+      </Movie>
+      <Movie>
+        <motion.h2 variants={fade}> My Portfoilo Website</motion.h2>
+        <motion.div variants={lineAnim} className="Line"></motion.div>
+        <Link to="/projects/Website">
+          <Hide>
+            <motion.img variants={photoAnim} src={Portfolio} alt="Website" />
+          </Hide>
+        </Link>
+      </Movie>
+      <Movie>
+        <motion.h2 variants={fade}>AAA Erp</motion.h2>
+        <motion.div variants={lineAnim} className="Line"></motion.div>
+        <Link to="/projects/AAA">
+          <Hide>
+            <motion.img variants={photoAnim} src={AAA} alt="AAA" />
           </Hide>
         </Link>
       </Movie>

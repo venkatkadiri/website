@@ -15,7 +15,7 @@ export const MovieState = () => {
       title: "2048",
       mainImg: initial_2048,
       secondaryImg: final_2048,
-      url: "/projects/2048",
+      url: "website/projects/2048",
       about: {
         title: "2048",
         description:
@@ -30,7 +30,7 @@ export const MovieState = () => {
       title: "Tetris",
       mainImg: tetris_final,
       secondaryImg: tetris_final,
-      url: "/projects/Tetris",
+      url: "website/projects/Tetris",
       about: {
         title: "Tetris",
         description:
@@ -45,7 +45,7 @@ export const MovieState = () => {
       title: "Dice Game",
       mainImg: pig,
       secondaryImg: pig,
-      url: "/projects/Dice-game",
+      url: "website/projects/Dice-game",
       about: {
         title: "Dice Game",
         description:
@@ -61,7 +61,7 @@ export const MovieState = () => {
       title: "Wave Music Player",
       mainImg: music_app_library,
       secondaryImg: music_app_layout,
-      url: "/projects/Music-Player",
+      url: "website/projects/Music-Player",
       about: {
         title: "Wave Music Player",
         description:
@@ -76,7 +76,7 @@ export const MovieState = () => {
       title: "My Portfolio Website",
       mainImg: Portfolio,
       secondaryImg: Portfolio,
-      url: "/projects/Website",
+      url: "website/projects/Website",
       about: {
         title: "My Portfolio Website",
         description:
@@ -91,7 +91,7 @@ export const MovieState = () => {
       title: "AAA Erp",
       mainImg: AAA,
       secondaryImg: AAA,
-      url: "/projects/AAA",
+      url: "website/projects/AAA",
       about: {
         title: "AAA Erp",
         description:

@@ -9,7 +9,7 @@ function Nav() {
   return (
     <StyledNav>
       <h1>
-        <Link id="Logo" to="/">
+        <Link id="Logo" to="website/">
           Venkat
         </Link>
       </h1>
@@ -19,7 +19,7 @@ function Nav() {
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/" ? "50%" : "0%" }}
+            animate={{ width: pathname === "website/" ? "50%" : "0%" }}
           />
         </li>
         <li>
@@ -27,7 +27,7 @@ function Nav() {
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/projects" ? "50%" : "0%" }}
+            animate={{ width: pathname === "website/projects" ? "50%" : "0%" }}
           />
         </li>
         <li>
@@ -35,7 +35,7 @@ function Nav() {
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
-            animate={{ width: pathname === "/contact" ? "50%" : "0%" }}
+            animate={{ width: pathname === "website/contact" ? "50%" : "0%" }}
           />
         </li>
       </ul>

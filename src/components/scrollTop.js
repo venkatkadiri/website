@@ -9,7 +9,9 @@ const ScrollTop = () => {
       left: 0,
     });
   }, [pathname]);
+
   console.log(pathname);
+
   return null;
 };
 

@@ -29,7 +29,9 @@ function About() {
         <motion.p variants={fade}>
           Passionate about responsive and feature-rich websites.
         </motion.p>
-        <motion.button variants={fade}>Contact</motion.button>
+        <form action="/contact">
+          <motion.button variants={fade}>Contact</motion.button>
+        </form>
       </Description>
 
       <Wave />

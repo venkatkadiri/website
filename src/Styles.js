@@ -9,6 +9,11 @@ export const Layout = styled(motion.div)`
   padding: 5rem 10rem;
   color: white;
   font-family: sans-serif;
+  @media (max-width: 1300px) {
+    display: block;
+    padding: 2rem 2rem;
+    align-items: center;
+  }
 `;
 export const Description = styled.div`
   flex: 1;

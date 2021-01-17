@@ -105,6 +105,9 @@ const Social = styled(motion.div)`
     margin: 2rem;
     color: black;
   }
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
 `;
 
 export default ContactMe;

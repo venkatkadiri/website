@@ -125,6 +125,9 @@ const Movie = styled.div`
   h2 {
     color: black;
   }
+  @media (max-width: 1700px) {
+    padding: 2rem 2rem;
+  }
 `;
 const Hide = styled.div`
   overflow: hidden;

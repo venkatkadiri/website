@@ -19,16 +19,16 @@ function App() {
       <Globalstyle />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
-          <Route path="website/" exact>
+          <Route path="/" exact>
             <AboutMe />
           </Route>
-          <Route path="website/projects" exact>
+          <Route path="/projects" exact>
             <MyProjects />
           </Route>
-          <Route path="website/projects/:id">
+          <Route path="/projects/:id">
             <MovieDetalis />
           </Route>
-          <Route path="website/contact" exact>
+          <Route path="/contact" exact>
             <ContactMe />
           </Route>
         </Switch>

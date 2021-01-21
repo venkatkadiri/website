@@ -4,6 +4,7 @@ import MyProjects from "./pages/MyProjects";
 import ContactMe from "./pages/Contactme";
 import Nav from "./components/Nav";
 import MovieDetalis from "./pages/MovieDetalis";
+import Error from "./pages/ErrorPage";
 //importing Global Styles
 import Globalstyle from "./components/GlobalStyle";
 //importing router
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/contact" exact>
             <ContactMe />
+          </Route>
+          <Route path="*">
+            <Error />
           </Route>
         </Switch>
       </AnimatePresence>

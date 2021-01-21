@@ -7,6 +7,7 @@ import reactjs from "../img/react.svg";
 import html from "../img/html5.svg";
 import spring from "../img/spring-3.svg";
 import sql from "../img/mysql-7.svg";
+import photoshop from "../img/photoshop-cc.svg";
 //importing Styles
 import { Layout, Description } from "../Styles";
 import styled from "styled-components";
@@ -91,6 +92,18 @@ function Skills() {
                 <li>Framer Motion</li>
                 <li>Axios</li>
               </ul>
+            </p>
+          </div>
+          <div className="card">
+            <div className="icon">
+              <img src={photoshop} alt="photoshop" width="5%"></img>
+              <h3>
+                <span>Photoshop</span>
+              </h3>
+            </div>
+            <p>
+              I am actually quite new to photoshop but I am familiar with
+              scaling images color grading and a little bit of editing.
             </p>
           </div>
           <div className="card">

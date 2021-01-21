@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { MovieState } from "../MovieState";
+import ErrorPage from "./ErrorPage";
 
 //importing animations
 import { motion } from "framer-motion";
@@ -22,7 +23,9 @@ function MovieDetalis() {
   }, [Movies, url]);
   return (
     <>
-      {Movie && (
+      {Movie === null ? (
+        <ErrorPage />
+      ) : (
         <Details
           variants={pageAnimation}
           initial="hidden"

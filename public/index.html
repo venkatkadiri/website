@@ -29,17 +29,27 @@
     <title>Venkat Kadiri</title>
   </head>
   <body>
+    <form
+            name="contactform"
+            method="POST"
+            action="../contactform"
+            data-netlify="true"
+          >
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+            <label className="Message-box">
+              <span>Message: </span>
+              <textarea name="message" rows="4" cols="20"></textarea>
+            </label>
+            <div data-netlify-recaptcha="true"></div>
+            <button type="submit">Send</button>
+          </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+ 
   </body>
 </html>

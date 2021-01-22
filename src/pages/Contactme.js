@@ -7,6 +7,7 @@ import {
   sliderContainer,
   titleAnim,
   lineAnim,
+  fade,
 } from "../animation";
 import styled from "styled-components";
 
@@ -25,20 +26,31 @@ function ContactMe() {
         </Hide>
         <motion.div variants={lineAnim} className="Line"></motion.div>
         <Social>
-          <form name="contact" method="POST" data-netlify="true">
-            <label>
-              Your Name: <input type="text" name="name" />
-            </label>
-            <label>
-              Your Email: <input type="email" name="email" />
-            </label>
-            <label className="Message-box">
-              <span>Message: </span>
-              <textarea name="message" rows="4" cols="20"></textarea>
-            </label>
-            <div data-netlify-recaptcha="true"></div>
-            <button type="submit">Send</button>
-          </form>
+          <motion.form
+            name="contactform"
+            method="POST"
+            action="../contactform"
+            variants={fade}
+            initial="hide"
+            animate="show"
+          >
+            <motion.input type="hidden" name="form-name" value="contactform" />
+            <motion.label>
+              Your Name: <motion.input type="text" name="name" />
+            </motion.label>
+            <motion.label>
+              Your Email: <motion.input type="email" name="email" />
+            </motion.label>
+            <motion.label className="Message-box">
+              <motion.span>Message: </motion.span>
+              <motion.textarea
+                name="message"
+                rows="4"
+                cols="20"
+              ></motion.textarea>
+            </motion.label>
+            <motion.button type="submit">Send</motion.button>
+          </motion.form>
         </Social>
       </Title>
       <motion.div variants={sliderContainer}>

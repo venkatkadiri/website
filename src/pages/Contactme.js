@@ -25,22 +25,20 @@ function ContactMe() {
         </Hide>
         <motion.div variants={lineAnim} className="Line"></motion.div>
         <Social>
-          <h3>
-            Email:
-            <a href="venkatkadiri@hotmail.com">venkatkadiri@hotmail.com</a>
-          </h3>
-          <h3>
-            Github:
-            <a href="https://github.com/venkatkadiri">
-              github.com/venkatkadiri
-            </a>
-          </h3>
-          <h3>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/venkat-kadiri-15799b137/">
-              linkedin.com/in/venkat-kadiri
-            </a>
-          </h3>
+          <form name="contact" method="POST" data-netlify="true">
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+            <label className="Message-box">
+              <span>Message: </span>
+              <textarea name="message" rows="4" cols="20"></textarea>
+            </label>
+            <div data-netlify-recaptcha="true"></div>
+            <button type="submit">Send</button>
+          </form>
         </Social>
       </Title>
       <motion.div variants={sliderContainer}>
@@ -97,9 +95,43 @@ const Hide = styled(motion.div)`
   overflow: hidden;
 `;
 const Social = styled(motion.div)`
-  color: black;
-  display: flex;
-  align-items: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    label {
+      color: black;
+      margin-bottom: 3rem;
+    }
+    input {
+      height: 2rem;
+      border-width: thin;
+      border-radius: 0.5rem;
+      padding-bottom: 0rem;
+    }
+    .Message-box {
+      display: flex;
+      padding-bottom: 0rem;
+
+      span {
+        color: black;
+        font-weight: normal;
+      }
+      textarea {
+        margin-left: 0.5rem;
+        border-radius: 1rem;
+      }
+    }
+    button {
+      color: black;
+      border-radius: 1rem;
+      &:hover {
+        background-color: white;
+        color: #23d997;
+      }
+    }
+  }
 
   h3 {
     margin: 2rem;

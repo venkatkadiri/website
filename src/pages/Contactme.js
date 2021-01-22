@@ -120,8 +120,9 @@ const Social = styled(motion.div)`
     input {
       height: 2rem;
       border-width: thin;
-      border-radius: 0.5rem;
+      border-radius: 1rem;
       padding-bottom: 0rem;
+      font-family: sans-serif;
     }
     .Message-box {
       display: flex;
@@ -134,15 +135,16 @@ const Social = styled(motion.div)`
       textarea {
         margin-left: 0.5rem;
         border-radius: 1rem;
+        font-family: sans-serif;
       }
     }
     button {
-      color: black;
-      border-radius: 1rem;
-      &:hover {
-        background-color: white;
-        color: #23d997;
-      }
+      height: 3rem;
+      padding-bottom: 2rem;
+      color: white;
+      background: #23d997;
+      border-radius: 3rem;
+      margin-left: 3rem;
     }
   }
 

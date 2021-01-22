@@ -36,10 +36,10 @@ function ContactMe() {
           >
             <motion.input type="hidden" name="form-name" value="contactform" />
             <motion.label>
-              Your Name: <motion.input type="text" name="name" />
+              Your Name: <motion.input required type="text" name="name" />
             </motion.label>
             <motion.label>
-              Your Email: <motion.input type="email" name="email" />
+              Your Email: <motion.input required type="email" name="email" />
             </motion.label>
             <motion.label className="Message-box">
               <motion.span>Message: </motion.span>
@@ -47,6 +47,7 @@ function ContactMe() {
                 name="message"
                 rows="4"
                 cols="20"
+                required
               ></motion.textarea>
             </motion.label>
             <motion.button type="submit">Send</motion.button>

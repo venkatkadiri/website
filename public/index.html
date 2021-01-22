@@ -30,11 +30,7 @@
   </head>
   <body>
     <form
-            name="contactform"
-            method="POST"
-            action="../contactform"
-            data-netlify="true"
-          >
+            name="contactform" netlify netlify-honeypot="bot-feild" hidden >
             <label>
               Your Name: <input type="text" name="name" />
             </label>
@@ -43,7 +39,7 @@
             </label>
             <label className="Message-box">
               <span>Message: </span>
-              <textarea name="message" rows="4" cols="20"></textarea>
+              <textarea name="message"></textarea>
             </label>
             <div data-netlify-recaptcha="true"></div>
             <button type="submit">Send</button>

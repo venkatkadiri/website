@@ -37,9 +37,6 @@ function MovieDetalis() {
             <img src={Movie.mainImg} alt="img" />
           </Headline>
           <AboutSection>
-            <h3>Type</h3>
-            <div className="Line"></div>
-            <p>{Movie.about.type}</p>
             <h3>Technologies</h3>
             <div className="Line"></div>
             <p>{Movie.about.technologies}</p>

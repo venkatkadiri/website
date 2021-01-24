@@ -77,3 +77,10 @@ export const scrollReveal = {
     },
   },
 };
+export const fadeform = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { ease: "easeOut", delay: 1 },
+  },
+};

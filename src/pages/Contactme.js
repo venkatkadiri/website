@@ -20,45 +20,54 @@ function ContactMe() {
       exit="exit"
       style={{ background: "#fff" }}
     >
-      <Title variants={titleAnim} animate="show" initial="hidden">
-        <Hide>
-          <motion.h2>Get In Touch</motion.h2>
-        </Hide>
-        <motion.div variants={lineAnim} className="Line"></motion.div>
-        <Social>
-          <motion.form
-            name="contactform"
-            method="POST"
-            action="../contactform"
-            variants={fade}
-            initial="hide"
-            animate="show"
-          >
-            <motion.input type="hidden" name="form-name" value="contactform" />
-            <motion.label>
-              Your Name: <motion.input required type="text" name="name" />
-            </motion.label>
-            <motion.label>
-              Your Email: <motion.input required type="email" name="email" />
-            </motion.label>
-            <motion.label className="Message-box">
-              <motion.span>Message: </motion.span>
-              <motion.textarea
-                name="message"
-                rows="4"
-                cols="20"
-                required
-              ></motion.textarea>
-            </motion.label>
-            <motion.button type="submit">Send</motion.button>
-          </motion.form>
-        </Social>
-      </Title>
       <motion.div variants={sliderContainer}>
         <Frame1 variants={slider}></Frame1>
         <Frame2 variants={slider}></Frame2>
         <Frame3 variants={slider}></Frame3>
         <Frame4 variants={slider}></Frame4>
+        <Title>
+          <Hide>
+            <motion.h2 variants={titleAnim}>Get In Touch</motion.h2>
+          </Hide>
+          <motion.div className="Line" variants={lineAnim}></motion.div>
+        </Title>
+        <Social variants={fade}>
+          <motion.form
+            name="contactform"
+            method="POST"
+            action="../contactform"
+            initial="hide"
+            animate="show"
+            variants={fade}
+          >
+            <motion.input
+              type="hidden"
+              name="form-name"
+              value="contactform"
+              variants={fade}
+            />
+            <motion.label variants={fade}>
+              Your Name:{" "}
+              <motion.input required type="text" name="name" variants={fade} />
+            </motion.label>
+            <motion.label variants={fade}>
+              Your Email: <motion.input required type="email" name="email" />
+            </motion.label>
+            <motion.label className="Message-box" variants={fade}>
+              <motion.span variants={fade}>Message: </motion.span>
+              <motion.textarea
+                name="message"
+                rows="4"
+                cols="20"
+                required
+                variants={fade}
+              ></motion.textarea>
+            </motion.label>
+            <motion.button type="submit" variants={fade}>
+              Send
+            </motion.button>
+          </motion.form>
+        </Social>
       </motion.div>
     </ContactStyle>
   );

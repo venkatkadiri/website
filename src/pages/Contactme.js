@@ -93,7 +93,6 @@ const Frame4 = styled(Frame1)`
   background: #8effa0;
 `;
 const ContactStyle = styled(motion.div)`
-  padding: 5rem 10rem;
   color: #353535;
   min-height: 90vh;
   overflow: hidden;
@@ -107,6 +106,9 @@ const ContactStyle = styled(motion.div)`
   h2 {
     color: black;
     font-family: sans-serif;
+  }
+  @media (max-width: 1300px) {
+    flex-direction: column;
   }
 `;
 const Title = styled(motion.div)`

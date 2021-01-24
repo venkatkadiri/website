@@ -33,8 +33,8 @@ function Skills() {
             </div>
             <p>
               Having worked with HTML for quite a while now I am familiar with
-              Advanced HTML features like canvas, drag and drop, SCO
-              optimization, and search engine page indexing.
+              quite a bit of Advanced HTML features like canvas, drag and drop,
+              SCO optimization, and search engine page indexing.
             </p>
           </div>
           <div className="card">
@@ -45,9 +45,9 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Expert in class-based animations with transitions,resposive
-              website design, expieianced with CSS pre compilers such as SCSS
-              and React supported CSS Libraries such as Styled Components, etc.
+              I can do CSS class-based animations with transitions,resposive
+              website design,familiar with CSS pre compilers such as SCSS and
+              React supported CSS Libraries such as Styled Components, etc.
             </p>
           </div>
           <div className="card">
@@ -70,8 +70,8 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Apart from the basics, I am well acquainted with ES6 standard
-              syntax like ES6 classes, Ajax, REST API, etc.
+              In javascript, I am very much familiar with ES6 standard syntax
+              like ES6 classes,arrow-functions, Ajax, REST API.
             </p>
           </div>
           <div className="card">
@@ -82,8 +82,8 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Proficiant With React Library and I am well acquainted with the
-              fallowing libraries
+              I have Worked on React Library both Professionally and personally
+              and as such, I am well acquainted with Libraries such as
               <ul>
                 <li>Redux</li>
                 <li>React Router DOM</li>
@@ -102,8 +102,8 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Aspire to become professional at Photoshop and adding it to my
-              design skills.
+              I am actually quite new to photoshop but I am familiar with
+              scaling images color grading and a little bit of editing.
             </p>
           </div>
           <div className="card">
@@ -114,8 +114,10 @@ function Skills() {
               </h3>
             </div>
             <p>
-              My Primary and most Skillfull language and know all the key
-              concepts.
+              I started Learning back-end development and coding, in general,
+              using Java so I can Proficiently write Algorithms and I am
+              familiar with all the key concepts like classes, inheritance,
+              polymorphism, Multi-threading, etc.
             </p>
           </div>
           <div className="card">
@@ -139,9 +141,10 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Very good experience with SQL queries and handling CRUD
-              operations, also well versed in writing complex queries and using
-              Advanced clauses.
+              I have very good experience with SQL queries and handling all the
+              CRUD operations on hundreds of table I am also well versed in
+              writing complex queries like nested queries and using Advanced
+              clauses.
             </p>
           </div>
         </Cards>

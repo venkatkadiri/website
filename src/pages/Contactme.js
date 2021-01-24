@@ -93,10 +93,10 @@ const Frame4 = styled(Frame1)`
   background: #8effa0;
 `;
 const ContactStyle = styled(motion.div)`
+  padding: 5rem 10rem;
   color: #353535;
   min-height: 90vh;
   overflow: hidden;
-
   .Line {
     height: 0.5rem;
     background: #23d997;
@@ -108,7 +108,7 @@ const ContactStyle = styled(motion.div)`
     font-family: sans-serif;
   }
   @media (max-width: 1300px) {
-    flex-direction: column;
+    padding: 2rem 2rem;
   }
 `;
 const Title = styled(motion.div)`
@@ -123,7 +123,6 @@ const Social = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
-
     label {
       color: black;
       margin-bottom: 3rem;
@@ -138,7 +137,6 @@ const Social = styled(motion.div)`
     .Message-box {
       display: flex;
       padding-bottom: 0rem;
-
       span {
         color: black;
         font-weight: normal;
@@ -158,7 +156,6 @@ const Social = styled(motion.div)`
       margin-left: 3rem;
     }
   }
-
   h3 {
     margin: 2rem;
     color: black;

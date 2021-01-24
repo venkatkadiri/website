@@ -28,7 +28,7 @@ import ScrollTop from "../components/scrollTop";
 function MyProjects() {
   return (
     <Project
-      style={{ background: "#fff111" }}
+      style={{ background: "#fff" }}
       variants={pageAnimation}
       initial="hidden"
       animate="show"
@@ -105,14 +105,12 @@ function MyProjects() {
 const Project = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
+  padding: 5rem 10rem;
   h2 {
     padding: 1rem 0rem;
   }
   @media (max-width: 1300px) {
-    padding: 0rem;
-    display: block;
-    align-items: center;
-    width: 100%;
+    padding: 2rem 2rem;
   }
 `;
 const Movie = styled.div`
@@ -129,9 +127,6 @@ const Movie = styled.div`
   }
   h2 {
     color: black;
-  }
-  @media (max-width: 1300px) {
-    padding: 2rem 2rem;
   }
 `;
 const Hide = styled.div`

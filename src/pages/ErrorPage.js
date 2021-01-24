@@ -1,13 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import { titleAnim, fadeform } from "../animation";
+import { titleAnim, fade } from "../animation";
 function ErrorPage() {
   return (
     <Error>
       <motion.div variants={titleAnim} initial="hidden" animate="show">
         <Hide>
-          <motion.h2>Sorry You have</motion.h2>
+          <motion.h2 variants={titleAnim} initial="hidden" animate="show">
+            Sorry You have
+          </motion.h2>
         </Hide>
         <Hide>
           <motion.h2 variants={titleAnim}>Landed on the</motion.h2>
@@ -17,13 +19,15 @@ function ErrorPage() {
             <span>Error Page.</span>
           </motion.h2>
         </Hide>
-        <Redirecting variants={fadeform}>
-          <motion.h3>Please Return to the Home Page</motion.h3>
-          <motion.form action="/">
-            <motion.button>Home page</motion.button>
-          </motion.form>
-        </Redirecting>
       </motion.div>
+      <Redirecting>
+        <motion.h3 variants={fade} initial="hide" animate="show">
+          Please Return to the Home Page
+        </motion.h3>
+        <motion.form action="/">
+          <motion.button variants={fade}>Home page</motion.button>
+        </motion.form>
+      </Redirecting>
     </Error>
   );
 }
@@ -38,7 +42,6 @@ const Error = styled(motion.div)`
   padding: 5rem 10rem;
   color: white;
   font-family: sans-serif;
-  overflow: hidden;
   @media (max-width: 1300px) {
     display: block;
     padding: 2rem 2rem;

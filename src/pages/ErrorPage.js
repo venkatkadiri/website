@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import { titleAnim, fade } from "../animation";
+import { titleAnim, fadeError } from "../animation";
 function ErrorPage() {
   return (
     <Error>
       <motion.div variants={titleAnim} initial="hidden" animate="show">
         <Hide>
           <motion.h2 variants={titleAnim} initial="hidden" animate="show">
-            Sorry You have
+            You have
           </motion.h2>
         </Hide>
         <Hide>
@@ -20,12 +20,10 @@ function ErrorPage() {
           </motion.h2>
         </Hide>
       </motion.div>
-      <Redirecting>
-        <motion.h3 variants={fade} initial="hide" animate="show">
-          Please Return to the Home Page
-        </motion.h3>
+      <Redirecting variants={fadeError} initial="hidden" animate="show">
+        <motion.h3>Please Return to the Home Page</motion.h3>
         <motion.form action="/">
-          <motion.button variants={fade}>Home page</motion.button>
+          <motion.button>Home page</motion.button>
         </motion.form>
       </Redirecting>
     </Error>

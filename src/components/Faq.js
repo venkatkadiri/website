@@ -11,20 +11,21 @@ function Faq() {
         <span>FAQ</span> About Me.
       </h2>
       <AnimateSharedLayout>
-        <Toggle title="What is My Education ?">
+        <Toggle title="My Education ?">
           <div className="Answer">
             <h3>I Completed My B-tech at GITAM University Vizag.</h3>
           </div>
         </Toggle>
-        <Toggle title="What is My Profession ?">
+        <Toggle title=" My Profession ?">
           <div className="Answer">
             <h3>I am A Full Stack Developer.</h3>
           </div>
         </Toggle>
-        <Toggle title="Which Company do I Work For ?">
+        <Toggle title="Company I Work For ?">
           <div className="Answer">
             <h3>
-              I Work For Tech Integra Erp Banjarahills as a Front End Developer.
+              Worked at Tech Integra Erp Banjarahills as a Front End Developer
+              for a year.
             </h3>
           </div>
         </Toggle>

@@ -77,3 +77,10 @@ export const scrollReveal = {
     },
   },
 };
+export const fadeError = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { ease: "easeOut", duration: 2 },
+  },
+};

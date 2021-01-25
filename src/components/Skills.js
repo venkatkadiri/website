@@ -26,7 +26,7 @@ function Skills() {
         <Cards>
           <div className="card">
             <div className="icon">
-              <img src={html} alt="html" width="5%"></img>
+              <img src={html} alt="html"></img>
               <h3>
                 <span>HTML 5</span>
               </h3>
@@ -39,7 +39,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={css} alt="css" width="5%"></img>
+              <img src={css} alt="css"></img>
               <h3>
                 <span>CSS 3</span>
               </h3>
@@ -52,7 +52,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={bootstrap} alt="bootstrap" width="5%"></img>
+              <img src={bootstrap} alt="bootstrap"></img>
               <h3>
                 <span>Bootstrap</span>
               </h3>
@@ -64,7 +64,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={javascript} alt="javascript" width="5%"></img>
+              <img src={javascript} alt="javascript"></img>
               <h3>
                 <span>Javascript</span>
               </h3>
@@ -76,7 +76,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={reactjs} alt="Reactjs" width="5%"></img>
+              <img src={reactjs} alt="Reactjs"></img>
               <h3>
                 <span>Reactjs</span>
               </h3>
@@ -96,7 +96,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={photoshop} alt="photoshop" width="5%"></img>
+              <img src={photoshop} alt="photoshop"></img>
               <h3>
                 <span>Photoshop</span>
               </h3>
@@ -108,7 +108,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={java} alt="java" width="5%"></img>
+              <img src={java} alt="java"></img>
               <h3>
                 <span>Java</span>
               </h3>
@@ -120,7 +120,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={spring} alt="spring" width="5%"></img>
+              <img src={spring} alt="spring"></img>
               <h3>
                 <span>Spring</span>
               </h3>
@@ -133,7 +133,7 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={sql} alt="sql" width="5%"></img>
+              <img src={sql} alt="sql"></img>
               <h3>
                 <span>MySQL</span>
               </h3>
@@ -162,6 +162,12 @@ const Cards = styled.div`
   display: flex !important;
   flex-direction: column;
   justify-content: space-evenly;
+  img {
+    width: 5%;
+    @media (max-width: 1300px) {
+      width: 10%;
+    }
+  }
 `;
 
 export default Skills;

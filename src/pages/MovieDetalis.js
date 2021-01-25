@@ -77,6 +77,11 @@ const Headline = styled.div`
     object-fit: cover;
     padding-top: 2rem;
     margin: 5rem 22rem;
+
+    @media (max-width: 1300px) {
+      width: 100%;
+      margin: 2rem 2rem;
+    }
   }
 `;
 const AboutSection = styled.div`

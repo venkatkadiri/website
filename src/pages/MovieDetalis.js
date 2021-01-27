@@ -74,7 +74,7 @@ const Headline = styled.div`
   img {
     width: 50%;
     min-height: 70vh;
-    object-fit: cover;
+    object-fit: contain;
     padding-top: 2rem;
     margin: 5rem 22rem;
 

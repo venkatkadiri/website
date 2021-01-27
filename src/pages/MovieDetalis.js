@@ -93,10 +93,13 @@ const AboutSection = styled.div`
     margin-bottom: 2rem;
   }
   .Line {
-    width: 13%;
+    width: 5%;
     background: #23d997;
     height: 0.5rem;
     margin: 1rem 0rem;
+    @media (max-width: 1300px) {
+      width: 13%;
+    }
   }
   a {
     color: white;

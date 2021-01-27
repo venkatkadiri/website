@@ -100,7 +100,7 @@ export const MovieState = () => {
         timePeriod: "4 months",
         type: "Work",
         technologies: "HTML,CSS,JavaScript,styled components,Redux,React",
-        git_link: "https://github.com/venkatkadiri/music_player",
+        git_link: "code is owned by the clint",
       },
     },
   ];

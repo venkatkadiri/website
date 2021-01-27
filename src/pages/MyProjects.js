@@ -123,7 +123,7 @@ const Movie = styled.div`
   img {
     width: 100%;
     height: 70vh;
-    object-fit: cover;
+    object-fit: contain;
   }
   h2 {
     color: black;

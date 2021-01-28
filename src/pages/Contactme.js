@@ -63,7 +63,7 @@ function ContactMe() {
                 variants={fade}
               ></motion.textarea>
             </motion.label>
-            <motion.button type="submit" variants={fade}>
+            <motion.button type="submit" whileHover={{ scale: 1.1 }}>
               Send
             </motion.button>
           </motion.form>

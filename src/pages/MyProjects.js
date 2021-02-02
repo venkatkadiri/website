@@ -90,15 +90,6 @@ function MyProjects() {
           </Hide>
         </Link>
       </Movie>
-      <Movie>
-        <motion.h2 variants={fade}>AAA Erp</motion.h2>
-        <motion.div variants={lineAnim} className="Line"></motion.div>
-        <Link to="/projects/AAA">
-          <Hide>
-            <motion.img variants={photoAnim} src={AAA} alt="AAA" />
-          </Hide>
-        </Link>
-      </Movie>
     </Project>
   );
 }

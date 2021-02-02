@@ -88,20 +88,6 @@ export const MovieState = () => {
         git_link: "https://github.com/venkatkadiri/website",
       },
     },
-    {
-      title: "AAA Erp",
-      mainImg: AAA,
-      secondaryImg: AAA,
-      url: "/projects/AAA",
-      about: {
-        title: "AAA Erp",
-        description:
-          "This Project is an Erp solution built for our overseas clint AAA real-estate(Oman) while I was Working at Tech Integra Erp.Costom Built for AAA real-estate, The entire front end is built using react while the Backend is been built with PHP, Code Igniter, and Cronjobs. My Contibution was to write few components in some of the modules,some reports.Since this project is large in scale our whole team worked on it for 4 months.",
-        timePeriod: "4 months",
-        type: "Work",
-        technologies: "HTML,CSS,JavaScript,styled components,Redux,React",
-        git_link: "code is owned by the clint",
-      },
-    },
+    ,
   ];
 };

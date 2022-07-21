@@ -1,11 +1,11 @@
 import React from "react";
-import java from "../img/java.svg";
+import dotnet from "../img/NET_Core_Logo.svg";
 import javascript from "../img/javascript-4.svg";
 import bootstrap from "../img/bootstrap.svg";
 import css from "../img/css-3.svg";
 import reactjs from "../img/react.svg";
 import html from "../img/html5.svg";
-import spring from "../img/spring-3.svg";
+import node from "../img/Node.js_logo.svg";
 import sql from "../img/mysql-7.svg";
 import photoshop from "../img/photoshop-cc.svg";
 //importing Styles
@@ -45,9 +45,10 @@ function Skills() {
               </h3>
             </div>
             <p>
-              Expert in class-based animations with transitions,resposive
-              website design, expieianced with CSS pre compilers such as SCSS
-              and React supported CSS Libraries such as Styled Components, etc.
+             Expert in class-based animations with transitions,responsive
+             website design, experienced with CSS pre compilers such as SCSS
+             and React supported CSS Libraries such as Styled Components, etc.
+
             </p>
           </div>
           <div className="card">
@@ -90,7 +91,6 @@ function Skills() {
                 <li>Context API</li>
                 <li>Styled Components</li>
                 <li>Framer Motion</li>
-                <li>Axios</li>
               </ul>
             </p>
           </div>
@@ -108,27 +108,25 @@ function Skills() {
           </div>
           <div className="card">
             <div className="icon">
-              <img src={java} alt="java"></img>
+              <img src={node} alt="java"></img>
               <h3>
-                <span>Java</span>
+                <span>Node</span>
               </h3>
             </div>
             <p>
-              My Primary and most Skillfull language and know all the key
-              concepts.
+              Coming from the front end world i am quite femilar with javaScript. So node felt very natural to me!
             </p>
           </div>
           <div className="card">
             <div className="icon">
-              <img src={spring} alt="spring"></img>
+              <img src={dotnet} alt="spring"></img>
               <h3>
-                <span>Spring</span>
+                <span>ASP Dotnet Core</span>
               </h3>
             </div>
             <p>
-              In Spring I am familiar with MVC Architecture and I have ample
-              experience with writing the Bussiness logic using Design patterns
-              like singleton pattern, DAO pattern POJO classes, etc
+              I am currently picking up on concepts related to the development of middleware API's in c# and dotnet.
+              with all the prior development experience I am currently holding my own with c# and dotnet
             </p>
           </div>
           <div className="card">

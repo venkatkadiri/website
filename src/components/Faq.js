@@ -24,8 +24,7 @@ function Faq() {
         <Toggle title="Company I Work For ?">
           <div className="Answer">
             <h3>
-              Worked at Tech Integra Erp Banjarahills as a Front End Developer
-              for a year.
+              I currently work at Keyloop India
             </h3>
           </div>
         </Toggle>

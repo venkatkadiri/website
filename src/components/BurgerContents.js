@@ -8,7 +8,6 @@ import { motion } from "framer-motion";
 
 function BurgerContents({selected}) {
     const selectedHandler = selected;
-    console.log(selectedHandler);
   return (
     <motion.div
       variants={pageAnimation}

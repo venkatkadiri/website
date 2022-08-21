@@ -8,17 +8,18 @@ import BurgerContents from './BurgerContents';
 
 
 function BurgerMenu() {
+  
   const [clicked, setClicked] = useState(false); //burger clicked or not...
-  const [selected,setSelectef] = useState(false);  
+  const [selected,setSelected] = useState(false);  
 
   const burgerClickHandler = () =>{
+    setSelected(!selected);
     setClicked(!clicked);
 
     
   }
 
   const itemClickHandler = () =>{
-    
     setSelectef(!selected);
     setClicked(!clicked);
 

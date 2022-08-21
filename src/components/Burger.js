@@ -20,12 +20,11 @@ function BurgerMenu() {
   }
 
   const itemClickHandler = () =>{
-    setSelectef(!selected);
+    setSelected(!selected);
     setClicked(!clicked);
 
 
   }
-
   return (
       <>
       <span className = {clicked ? 'background-open' : 'background'}></span>

@@ -11,8 +11,6 @@ import { pageAnimation } from "../animation";
 function MovieDetalis() {
   const history = useHistory();
   const url = history.location.pathname;
-  console.log(url);
-  console.log(MovieState);
   const [Movies, setMovies] = useState(MovieState);
   const [Movie, setMovie] = useState(null);
   //UseEffect

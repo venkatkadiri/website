@@ -1,0 +1,52 @@
+@keyframes fade-in-page {
+    from {
+        display: none;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    25% {
+        display: block;
+        opacity: 0.25;
+        }
+
+    50% {
+            display: block;
+            opacity: 0.55;
+        }
+    75% {
+            display: block;
+            opacity: 0.75;
+        }
+    to {
+        display: block;
+        opacity: 1;
+
+    }
+}
+
+.page-open {
+    display: block;
+    
+        h3 {
+            font-weight: lighter;
+        }
+    
+        .faq-line {
+            background: #cccccc;
+            height: 0.2rem;
+            margin: 2rem 0rem;
+            width: 100%;
+        }
+    
+        .Question {
+            padding-top: 2rem;
+        }
+    
+        .Answer {
+            padding-top: 1rem;
+        }
+}

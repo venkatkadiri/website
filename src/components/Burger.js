@@ -12,13 +12,13 @@ function BurgerMenu() {
   const [selected,setSelectef] = useState(false);  
 
   const burgerClickHandler = () =>{
-    setSelectef(!selected);
     setClicked(!clicked);
 
     
   }
 
   const itemClickHandler = () =>{
+    
     setSelectef(!selected);
     setClicked(!clicked);
 
